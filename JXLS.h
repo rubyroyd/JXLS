@@ -9,7 +9,7 @@
 
 #import <Foundation/Foundation.h>
 
-#if (TARGET_OS_IPHONE || defined(COCOAPODS_POD_AVAILABLE_JXLS))
+#if (TARGET_OS_IPHONE || __has_include("Pods-environment.h"))
 #import "common/xlstypes.h"
 #import "xlslib.h"
 #import "JXLSWorkBook.h"
