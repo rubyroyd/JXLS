@@ -11,7 +11,7 @@ DerivedData
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
-xcuserdata
+**/xcuserdata
 
 ## Other
 *.xccheckout
@@ -25,14 +25,3 @@ xcuserdata
 *.hmap
 *.ipa
 *.dSYM.zip
-
-## CocoaPods
-Pods/
-
-## npm
-node_modules
-
-## Fastlane
-fastlane/README.md
-fastlane/report.xml
-fastlane/ipa/
